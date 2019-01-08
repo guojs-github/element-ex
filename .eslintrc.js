@@ -24,6 +24,10 @@ module.exports = {
     // allow async-await
     'generator-star-spacing': 'off',
     // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-tabs': 0, // 允许用tab按键
+    'no-mixed-spaces-and-tabs': 0,  //允许tab和空格键混合
+    'no-trailing-spaces': 0, // 允许行尾有空格
+    'indent': ["off", "tab"]  // 缩进检查关闭，允许用tab进行缩进  
   }
 }
