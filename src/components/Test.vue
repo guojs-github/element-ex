@@ -3,6 +3,7 @@
 		<Layout/>
 		<Container/>
 		<Icons/>
+		<Button/>
 	</div>
 </template>
 
@@ -10,6 +11,7 @@
 	import Layout from './Layout/Layout'
 	import Container from './Container/Container'
 	import Icons from './Icons/Icons'
+	import Button from './Button/Button'
 	export default {
 		name: 'Test',
 
@@ -21,7 +23,8 @@
 		components: {
 			Layout,
 			Container,
-			Icons
+			Icons,
+			Button
 		}
 	}
 </script>

@@ -1,5 +1,5 @@
 <template>
-    <div class='test-item container'>
+    <div class='test-item icons'>
 		<div class='title'>Icons</div>
 		
 		<el-button type="primary" icon="el-icon-search">
