@@ -1,3 +1,25 @@
 /*
 	Icons style
 */
+
+div.test-item.container {
+	div.icons {
+		margin-top: 10px;
+		
+		width: 100%;
+		
+		& > i {
+			@icon-section-size: 80px;
+			
+			display: inline-block;
+			vertical-align: top;
+			
+			width: @icon-section-size;
+			height: @icon-section-size;
+			line-height: @icon-section-size;
+			border: 1px solid lightgray;
+			font-size: 30px;
+			text-align: center;
+		}
+	}
+}
