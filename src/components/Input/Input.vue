@@ -4,10 +4,17 @@
 		
 		<div class='row'>
 			<el-input v-model="input1" placeholder="请选择日期" suffix-icon="el-icon-date" clearable/>		
+			<el-input v-model="input1" placeholder="请选择日期" suffix-icon="el-icon-date" clearable/>		
 			<el-input v-model="input2" placeholder="请输入关键字" clearable>
 				<i slot='prefix' class='el-input__icon el-icon-search'/>
 			</el-input>		
 			<el-input v-model="input3" placeholder="请输入信息" :disabled='true'/>		
+			<el-input
+				type="textarea"
+				:autosize="{ minRows: 2, maxRows: 4}"
+				placeholder="请输入内容"
+				v-model="textarea">
+			</el-input>
 		</div>
 	</div>
 </template>
@@ -20,7 +27,8 @@
 			return {
 				input1: '2019-01-01',
 				input2: '',
-				input3: ''
+				input3: '',
+				textarea: '大量输入'
 			}		
 		},
 		
