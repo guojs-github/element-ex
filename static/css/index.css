@@ -1,0 +1,7 @@
+/*
+	index styles
+*/
+
+.test-item.input > .row .input-with-select > .el-input-group__prepend {
+    background-color: white;
+  }
