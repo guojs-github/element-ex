@@ -4,6 +4,9 @@
 		<Container/>
 		<Icons/>
 		<Button/>
+		<Radio/>
+		<Checkbox/>
+		<Input/>
 	</div>
 </template>
 
@@ -12,6 +15,9 @@
 	import Container from './Container/Container'
 	import Icons from './Icons/Icons'
 	import Button from './Button/Button'
+	import Radio from './Radio/Radio'
+	import Checkbox from './Checkbox/Checkbox'
+	import Input from './Input/Input'
 	export default {
 		name: 'Test',
 
@@ -24,7 +30,10 @@
 			Layout,
 			Container,
 			Icons,
-			Button
+			Button,
+			Radio,
+			Checkbox,
+			Input
 		}
 	}
 </script>
