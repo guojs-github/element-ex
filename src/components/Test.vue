@@ -10,6 +10,7 @@
 		<InputNumber/>
 		<Select/>
 		<Cascader/>
+		<SwitchDemo/>
 	</div>
 </template>
 
@@ -24,6 +25,7 @@
 	import InputNumber from './InputNumber/InputNumber'
 	import Select from './Select/Select'
 	import Cascader from './Cascader/Cascader'
+	import SwitchDemo from './SwitchDemo/SwitchDemo'
 	export default {
 		name: 'Test',
 
@@ -42,7 +44,8 @@
 			Input,
 			InputNumber,
 			Select,
-			Cascader
+			Cascader,
+			SwitchDemo
 		}
 	}
 </script>
