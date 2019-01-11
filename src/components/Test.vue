@@ -9,6 +9,7 @@
 		<Input/>
 		<InputNumber/>
 		<Select/>
+		<Cascader/>
 	</div>
 </template>
 
@@ -22,6 +23,7 @@
 	import Input from './Input/Input'
 	import InputNumber from './InputNumber/InputNumber'
 	import Select from './Select/Select'
+	import Cascader from './Cascader/Cascader'
 	export default {
 		name: 'Test',
 
@@ -39,7 +41,8 @@
 			Checkbox,
 			Input,
 			InputNumber,
-			Select
+			Select,
+			Cascader
 		}
 	}
 </script>
