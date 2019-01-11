@@ -1,7 +1,6 @@
 /*
-	index styles
+	Additional style for bugs
 */
-
-.test-item.input > .row .input-with-select > .el-input-group__prepend {
-    background-color: white;
-  }
+.test-item.input > .row > .input-with-select > .el-input-group__prepend {
+    background-color: #fff;
+}

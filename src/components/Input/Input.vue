@@ -67,8 +67,8 @@
 				@select="onSelect">
 				<i class="el-icon-edit el-input__icon" slot="suffix" @click="onClickIcon"></i>
 				<template slot-scope="{ item }">
-					<div class="name">{{ item.value }}</div>
-					<span class="addr">{{ item.address }}</span>
+					<div class="input-search-name">{{ item.value }}</div>
+					<span class="input-search-addr">{{ item.address }}</span>
 				</template>
 			</el-autocomplete>
 		</div>

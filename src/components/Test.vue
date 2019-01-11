@@ -8,6 +8,7 @@
 		<Checkbox/>
 		<Input/>
 		<InputNumber/>
+		<Select/>
 	</div>
 </template>
 
@@ -20,6 +21,7 @@
 	import Checkbox from './Checkbox/Checkbox'
 	import Input from './Input/Input'
 	import InputNumber from './InputNumber/InputNumber'
+	import Select from './Select/Select'
 	export default {
 		name: 'Test',
 
@@ -36,7 +38,8 @@
 			Radio,
 			Checkbox,
 			Input,
-			InputNumber
+			InputNumber,
+			Select
 		}
 	}
 </script>

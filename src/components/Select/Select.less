@@ -1,0 +1,28 @@
+/*
+	Select style
+*/
+
+.test-item.select {
+	& > .row {
+		width: 100%;
+		height: 50px;
+		line-height: 50px;
+	}
+}
+
+li {
+	& > .select-test-item-label {
+		color: gray;
+		font-size: 14px;
+	}
+
+	& > .select-test-item-value {
+		color: lightgray;
+		font-size: 12px;
+	}
+	
+	&.is-disabled > .select-test-item-label, &.is-disabled > .select-test-item-value {
+		text-decoration: line-through;
+	}
+}
+
