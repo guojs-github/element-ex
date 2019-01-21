@@ -11,6 +11,8 @@
 		<Select/>
 		<Cascader/>
 		<SwitchDemo/>
+		<Slider/>
+		<DateTime/>
 	</div>
 </template>
 
@@ -26,6 +28,8 @@
 	import Select from './Select/Select'
 	import Cascader from './Cascader/Cascader'
 	import SwitchDemo from './SwitchDemo/SwitchDemo'
+	import Slider from './Slider/Slider'
+	import DateTime from './DateTime/DateTime'
 	export default {
 		name: 'Test',
 
@@ -45,7 +49,9 @@
 			InputNumber,
 			Select,
 			Cascader,
-			SwitchDemo
+			SwitchDemo,
+			Slider,
+			DateTime
 		}
 	}
 </script>
