@@ -13,6 +13,10 @@
 		<SwitchDemo/>
 		<Slider/>
 		<DateTime/>
+		<Upload/>
+		<Rate/>
+		<ColorPicker/>
+		<Transfer/>
 	</div>
 </template>
 
@@ -30,6 +34,10 @@
 	import SwitchDemo from './SwitchDemo/SwitchDemo'
 	import Slider from './Slider/Slider'
 	import DateTime from './DateTime/DateTime'
+	import Upload from './Upload/Upload'
+	import Rate from './Rate/Rate'
+	import ColorPicker from './ColorPicker/ColorPicker'
+	import Transfer from './Transfer/Transfer'
 	export default {
 		name: 'Test',
 
@@ -51,7 +59,11 @@
 			Cascader,
 			SwitchDemo,
 			Slider,
-			DateTime
+			DateTime,
+			Upload,
+			Rate,
+			ColorPicker,
+			Transfer
 		}
 	}
 </script>
