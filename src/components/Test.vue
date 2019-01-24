@@ -17,6 +17,8 @@
 		<Rate/>
 		<ColorPicker/>
 		<Transfer/>
+		<Form/>
+		<Table/>
 	</div>
 </template>
 
@@ -38,6 +40,8 @@
 	import Rate from './Rate/Rate'
 	import ColorPicker from './ColorPicker/ColorPicker'
 	import Transfer from './Transfer/Transfer'
+	import Form from './Form/Form'
+	import Table from './Table/Table'
 	export default {
 		name: 'Test',
 
@@ -63,7 +67,9 @@
 			Upload,
 			Rate,
 			ColorPicker,
-			Transfer
+			Transfer,
+			Form,
+			Table
 		}
 	}
 </script>
