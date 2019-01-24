@@ -5,15 +5,27 @@
 		<div class='row'>
 			<el-table
 				:data='tableData'
+				ref='table'
 				style='width: 100%'
 				height='200px'
 				stripe
 				border
 				:row-class-name="tableRowClassName">
 				<el-table-column
+					type='selection'
+					width='50'
+					fixed>
+				</el-table-column>
+				<el-table-column
+					type='index'
+					width='50'
+					fixed>
+				</el-table-column>
+				<el-table-column
 					prop='date'
 					label='日期'
-					width="180"
+					sortable
+					width='180'
 					fixed>
 				</el-table-column>
 				<el-table-column
@@ -33,6 +45,7 @@
 				</el-table-column>
 				<el-table-column
 					prop='address'
+					show-overflow-tooltip
 					label='地址'>
 				</el-table-column>
 				<el-table-column
@@ -50,6 +63,10 @@
 					</template>
 				</el-table-column>
 			</el-table>
+			<div style="margin-top: 20px">
+				<el-button @click="toggleSelection([tableData[1], tableData[2]])">切换第二、第三行的选中状态</el-button>
+				<el-button @click="toggleSelection()">取消选择</el-button>
+			</div>
 		</div>
 		
 		<div class='row'>
@@ -136,15 +153,23 @@
 		},
 		
 		methods: {
+			/**********************/
 			tableRowClassName ({row, rowIndex}) {
 				if (rowIndex === 2) {
 					return 'warning-row'
 				} 
 				return ''
+			},
+
+			toggleSelection (rows) {
+				if (rows) {
+					rows.forEach(row => {
+						this.$refs.table.toggleRowSelection(row)
+					})
+				} else {
+					this.$refs.table.clearSelection()
+				}
 			}
-
-			/**********************/
-
 		}
 	}
 </script>
