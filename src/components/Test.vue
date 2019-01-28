@@ -19,6 +19,7 @@
 		<Transfer/>
 		<Form/>
 		<Table/>
+		<Tag/>
 	</div>
 </template>
 
@@ -42,6 +43,7 @@
 	import Transfer from './Transfer/Transfer'
 	import Form from './Form/Form'
 	import Table from './Table/Table'
+	import Tag from './Tag/Tag'
 	export default {
 		name: 'Test',
 
@@ -69,7 +71,8 @@
 			ColorPicker,
 			Transfer,
 			Form,
-			Table
+			Table,
+			Tag
 		}
 	}
 </script>
