@@ -20,6 +20,7 @@
 		<Form/>
 		<Table/>
 		<Tag/>
+		<Progress/>
 	</div>
 </template>
 
@@ -44,6 +45,7 @@
 	import Form from './Form/Form'
 	import Table from './Table/Table'
 	import Tag from './Tag/Tag'
+	import Progress from './Progress/Progress'
 	export default {
 		name: 'Test',
 
@@ -72,7 +74,8 @@
 			Transfer,
 			Form,
 			Table,
-			Tag
+			Tag,
+			Progress
 		}
 	}
 </script>
