@@ -21,6 +21,7 @@
 		<Table/>
 		<Tag/>
 		<Progress/>
+		<Tree/>
 	</div>
 </template>
 
@@ -46,6 +47,7 @@
 	import Table from './Table/Table'
 	import Tag from './Tag/Tag'
 	import Progress from './Progress/Progress'
+	import Tree from './Tree/Tree'
 	export default {
 		name: 'Test',
 
@@ -75,7 +77,8 @@
 			Form,
 			Table,
 			Tag,
-			Progress
+			Progress,
+			Tree
 		}
 	}
 </script>

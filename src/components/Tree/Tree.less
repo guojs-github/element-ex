@@ -1,0 +1,26 @@
+/*
+	Tree style
+*/
+
+.test-item.tree {
+	& > .row {
+		width: 100%;
+		min-height: 30px;
+		line-height: 30px;
+		
+		span.custom-tree-node {
+			display: flex;
+			flex-flow: row;
+			justify-content: space-between;
+			align-items: center;
+			
+			width: 200px;
+		}
+	}
+	
+	.row + .row {
+		margin-top: 10px;
+	}
+}
+
+
