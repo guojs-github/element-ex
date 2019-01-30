@@ -22,6 +22,7 @@
 		<Tag/>
 		<Progress/>
 		<Tree/>
+		<Pagination/>
 	</div>
 </template>
 
@@ -48,6 +49,7 @@
 	import Tag from './Tag/Tag'
 	import Progress from './Progress/Progress'
 	import Tree from './Tree/Tree'
+	import Pagination from './Pagination/Pagination'
 	export default {
 		name: 'Test',
 
@@ -78,7 +80,8 @@
 			Table,
 			Tag,
 			Progress,
-			Tree
+			Tree,
+			Pagination
 		}
 	}
 </script>
