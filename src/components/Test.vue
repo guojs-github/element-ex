@@ -26,6 +26,7 @@
 		<Badge/>
 		<Alert/>
 		<Loading/>
+		<Message/>
 	</div>
 </template>
 
@@ -56,6 +57,7 @@
 	import Badge from './Badge/Badge'
 	import Alert from './Alert/Alert'
 	import Loading from './Loading/Loading'
+	import Message from './Message/Message'
 
 	export default {
 		name: 'Test',
@@ -91,7 +93,8 @@
 			Pagination,
 			Badge,
 			Alert,
-			Loading
+			Loading,
+			Message
 		}
 	}
 </script>
