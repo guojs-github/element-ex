@@ -25,6 +25,7 @@
 		<Pagination/>
 		<Badge/>
 		<Alert/>
+		<Loading/>
 	</div>
 </template>
 
@@ -54,6 +55,7 @@
 	import Pagination from './Pagination/Pagination'
 	import Badge from './Badge/Badge'
 	import Alert from './Alert/Alert'
+	import Loading from './Loading/Loading'
 
 	export default {
 		name: 'Test',
@@ -88,7 +90,8 @@
 			Tree,
 			Pagination,
 			Badge,
-			Alert
+			Alert,
+			Loading
 		}
 	}
 </script>
