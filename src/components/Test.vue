@@ -23,6 +23,7 @@
 		<Progress/>
 		<Tree/>
 		<Pagination/>
+		<Badge/>
 	</div>
 </template>
 
@@ -50,6 +51,7 @@
 	import Progress from './Progress/Progress'
 	import Tree from './Tree/Tree'
 	import Pagination from './Pagination/Pagination'
+	import Badge from './Badge/Badge'
 	export default {
 		name: 'Test',
 
@@ -81,7 +83,8 @@
 			Tag,
 			Progress,
 			Tree,
-			Pagination
+			Pagination,
+			Badge
 		}
 	}
 </script>
