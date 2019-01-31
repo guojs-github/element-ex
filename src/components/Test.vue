@@ -27,6 +27,7 @@
 		<Alert/>
 		<Loading/>
 		<Message/>
+		<MessageBox/>
 	</div>
 </template>
 
@@ -58,6 +59,7 @@
 	import Alert from './Alert/Alert'
 	import Loading from './Loading/Loading'
 	import Message from './Message/Message'
+	import MessageBox from './MessageBox/MessageBox'
 
 	export default {
 		name: 'Test',
@@ -94,7 +96,8 @@
 			Badge,
 			Alert,
 			Loading,
-			Message
+			Message,
+			MessageBox
 		}
 	}
 </script>
