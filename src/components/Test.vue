@@ -29,6 +29,7 @@
 		<Message/>
 		<MessageBox/>
 		<Notification/>
+		<Menu/>
 	</div>
 </template>
 
@@ -62,6 +63,7 @@
 	import Message from './Message/Message'
 	import MessageBox from './MessageBox/MessageBox'
 	import Notification from './Notification/Notification'
+	import Menu from './Menu/Menu'
 
 	export default {
 		name: 'Test',
@@ -100,7 +102,8 @@
 			Loading,
 			Message,
 			MessageBox,
-			Notification
+			Notification,
+			Menu
 		}
 	}
 </script>
