@@ -28,6 +28,7 @@
 		<Loading/>
 		<Message/>
 		<MessageBox/>
+		<Notification/>
 	</div>
 </template>
 
@@ -60,6 +61,7 @@
 	import Loading from './Loading/Loading'
 	import Message from './Message/Message'
 	import MessageBox from './MessageBox/MessageBox'
+	import Notification from './Notification/Notification'
 
 	export default {
 		name: 'Test',
@@ -97,7 +99,8 @@
 			Alert,
 			Loading,
 			Message,
-			MessageBox
+			MessageBox,
+			Notification
 		}
 	}
 </script>
