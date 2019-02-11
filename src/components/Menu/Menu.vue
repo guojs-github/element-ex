@@ -81,14 +81,22 @@
 		data () {
 			return {
 				activeIndex: 'firstMenu',
-				isCollapse: 'true'
+				isCollapse: true
 			}		
 		},
 		
 		methods: {
 			onMenuSelect (key, keyPath) {
 				console.log(key, keyPath)
-			}
+			},
+
+			onMenuOpen (key, keyPath) {
+				console.log(key, keyPath)
+			},			
+			
+			onMenuClose (key, keyPath) {
+				console.log(key, keyPath)
+			}			
 			
 			/**********************/
 		}

@@ -30,6 +30,7 @@
 		<MessageBox/>
 		<Notification/>
 		<Menu/>
+		<Tab/>
 	</div>
 </template>
 
@@ -64,6 +65,7 @@
 	import MessageBox from './MessageBox/MessageBox'
 	import Notification from './Notification/Notification'
 	import Menu from './Menu/Menu'
+	import Tab from './Tab/Tab'
 
 	export default {
 		name: 'Test',
@@ -103,7 +105,8 @@
 			Message,
 			MessageBox,
 			Notification,
-			Menu
+			Menu,
+			Tab
 		}
 	}
 </script>
