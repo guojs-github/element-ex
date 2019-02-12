@@ -32,6 +32,7 @@
 		<Menu/>
 		<Tab/>
 		<BreadCrumb/>
+		<Dropdown/>
 	</div>
 </template>
 
@@ -68,6 +69,7 @@
 	import Menu from './Menu/Menu'
 	import Tab from './Tab/Tab'
 	import BreadCrumb from './BreadCrumb/BreadCrumb'
+	import Dropdown from './Dropdown/Dropdown'
 
 	export default {
 		name: 'Test',
@@ -109,7 +111,8 @@
 			Notification,
 			Menu,
 			Tab,
-			BreadCrumb
+			BreadCrumb,
+			Dropdown
 		}
 	}
 </script>
