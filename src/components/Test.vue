@@ -31,6 +31,7 @@
 		<Notification/>
 		<Menu/>
 		<Tab/>
+		<BreadCrumb/>
 	</div>
 </template>
 
@@ -66,6 +67,7 @@
 	import Notification from './Notification/Notification'
 	import Menu from './Menu/Menu'
 	import Tab from './Tab/Tab'
+	import BreadCrumb from './BreadCrumb/BreadCrumb'
 
 	export default {
 		name: 'Test',
@@ -106,7 +108,8 @@
 			MessageBox,
 			Notification,
 			Menu,
-			Tab
+			Tab,
+			BreadCrumb
 		}
 	}
 </script>
