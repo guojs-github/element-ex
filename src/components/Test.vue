@@ -33,6 +33,7 @@
 		<Tab/>
 		<BreadCrumb/>
 		<Dropdown/>
+		<Steps/>
 	</div>
 </template>
 
@@ -70,6 +71,7 @@
 	import Tab from './Tab/Tab'
 	import BreadCrumb from './BreadCrumb/BreadCrumb'
 	import Dropdown from './Dropdown/Dropdown'
+	import Steps from './Steps/Steps'
 
 	export default {
 		name: 'Test',
@@ -112,7 +114,8 @@
 			Menu,
 			Tab,
 			BreadCrumb,
-			Dropdown
+			Dropdown,
+			Steps
 		}
 	}
 </script>
