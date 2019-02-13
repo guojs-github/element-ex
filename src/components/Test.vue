@@ -35,6 +35,7 @@
 		<Dropdown/>
 		<Steps/>
 		<Dialog/>
+		<Tooltip/>
 	</div>
 </template>
 
@@ -74,6 +75,7 @@
 	import Dropdown from './Dropdown/Dropdown'
 	import Steps from './Steps/Steps'
 	import Dialog from './Dialog/Dialog'
+	import Tooltip from './Tooltip/Tooltip'
 
 	export default {
 		name: 'Test',
@@ -118,7 +120,8 @@
 			BreadCrumb,
 			Dropdown,
 			Steps,
-			Dialog
+			Dialog,
+			Tooltip
 		}
 	}
 </script>
