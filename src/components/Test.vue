@@ -36,6 +36,7 @@
 		<Steps/>
 		<Dialog/>
 		<Tooltip/>
+		<Popover/>
 	</div>
 </template>
 
@@ -76,6 +77,7 @@
 	import Steps from './Steps/Steps'
 	import Dialog from './Dialog/Dialog'
 	import Tooltip from './Tooltip/Tooltip'
+	import Popover from './Popover/Popover'
 
 	export default {
 		name: 'Test',
@@ -121,7 +123,8 @@
 			Dropdown,
 			Steps,
 			Dialog,
-			Tooltip
+			Tooltip,
+			Popover
 		}
 	}
 </script>
