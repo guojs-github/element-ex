@@ -38,6 +38,7 @@
 		<Tooltip/>
 		<Popover/>
 		<Card/>
+		<Carousel/>
 	</div>
 </template>
 
@@ -80,6 +81,7 @@
 	import Tooltip from './Tooltip/Tooltip'
 	import Popover from './Popover/Popover'
 	import Card from './Card/Card'
+	import Carousel from './Carousel/Carousel'
 
 	export default {
 		name: 'Test',
@@ -127,7 +129,8 @@
 			Dialog,
 			Tooltip,
 			Popover,
-			Card
+			Card,
+			Carousel
 		}
 	}
 </script>

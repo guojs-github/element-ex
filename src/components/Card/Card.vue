@@ -15,7 +15,7 @@
 		</div>
 		
 		<div class='row'>
-			<el-card v-for='(o, index) in 2' :key='o'
+			<el-card v-for='(o) in 2' :key='o'
 				 class='box-card-1'
 				 shadow='hover'>
 				<img src='../../assets/image/hamburger.png' class='image'>
