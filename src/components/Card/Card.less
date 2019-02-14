@@ -1,0 +1,61 @@
+/*
+	Card style
+*/
+
+.test-item.card {
+	& > .row {
+		width: 100%;
+		min-height: 30px;
+		line-height: 30px;
+		
+		.box-card {
+			width: 400px;
+		}
+		
+		.box-card-1  {
+			display: inline-block;
+			vertical-align: top;
+			
+			width: 350px;
+		}
+		
+		.box-card-1 + .box-card-1 {
+			margin-left: 30px;
+		}
+
+		.time {
+			font-size: 13px;
+			color: #999;
+		}
+
+		.bottom {
+			margin-top: 13px;
+			line-height: 12px;
+		}
+
+		.button {
+			padding: 0;
+			float: right;
+		}
+
+		.image {
+			width: 100%;
+			display: block;
+		}
+
+		.clearfix:before,
+		.clearfix:after {
+			display: table;
+			content: "";
+		}
+
+		.clearfix:after {
+			clear: both
+		}
+	}
+	
+	.row + .row {
+		margin-top: 20px;
+	}
+}
+

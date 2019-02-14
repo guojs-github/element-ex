@@ -37,6 +37,7 @@
 		<Dialog/>
 		<Tooltip/>
 		<Popover/>
+		<Card/>
 	</div>
 </template>
 
@@ -78,6 +79,7 @@
 	import Dialog from './Dialog/Dialog'
 	import Tooltip from './Tooltip/Tooltip'
 	import Popover from './Popover/Popover'
+	import Card from './Card/Card'
 
 	export default {
 		name: 'Test',
@@ -124,7 +126,8 @@
 			Steps,
 			Dialog,
 			Tooltip,
-			Popover
+			Popover,
+			Card
 		}
 	}
 </script>
