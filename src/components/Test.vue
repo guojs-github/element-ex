@@ -39,6 +39,7 @@
 		<Popover/>
 		<Card/>
 		<Carousel/>
+		<Collapse/>
 	</div>
 </template>
 
@@ -82,6 +83,7 @@
 	import Popover from './Popover/Popover'
 	import Card from './Card/Card'
 	import Carousel from './Carousel/Carousel'
+	import Collapse from './Collapse/Collapse'
 
 	export default {
 		name: 'Test',
@@ -130,7 +132,8 @@
 			Tooltip,
 			Popover,
 			Card,
-			Carousel
+			Carousel,
+			Collapse
 		}
 	}
 </script>
