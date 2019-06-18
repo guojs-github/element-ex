@@ -193,6 +193,34 @@
 				</el-table-column>
 			</el-table>
 		</div>
+
+		<div class='row'>		
+			<el-table
+				:data='tableData3'
+				style='width: 100%'
+				:span-method='spanMethod1'>
+				<el-table-column
+					prop='id'
+					label='id'
+					width='180'>
+				</el-table-column>
+				<el-table-column
+					prop='name'
+					label='菜名'
+					width='180'>
+				</el-table-column>
+				<el-table-column
+					prop='category'
+					label='分类'
+					width='180'>
+				</el-table-column>
+				<el-table-column
+					prop='shop'
+					label='店名'
+					width='180'>
+				</el-table-column>
+			</el-table>
+		</div>
 	</div>
 </template>
 
@@ -271,6 +299,22 @@
 					address: '上海市普陀区真北路',
 					shop: '王小虎夫妻店',
 					shopId: '10333'
+				}],
+				tableData3: [{
+					id: '1',
+					name: '菜品1',
+					category: '江浙小吃',
+					shop: '店家1'
+				}, {
+					id: '2',
+					name: '菜品2',
+					category: '江浙小吃',
+					shop: '店家2'
+				}, {
+					id: '3',
+					name: '菜名3',
+					category: '小吃零食',
+					shop: '店家2'
 				}]
 			}		
 		},
@@ -347,6 +391,26 @@
 					} else if (columnIndex === 3) {
 						return [0, 0]
 					}
+				}				
+			},
+
+			spanMethod1 ({row, column, rowIndex, columnIndex}) {
+				// 合并显示第一条记录和第二条记录的【分类】列
+				if ((rowIndex === 0) && (columnIndex === 2)) {
+					return [2, 1]
+				}				
+
+				if ((rowIndex === 1) && (columnIndex === 2)) {
+						return [0, 0]
+				}				
+
+				// 合并显示第二条记录和第三条记录的【店名】列
+				if ((rowIndex === 1) && (columnIndex === 3)) {
+					return [2, 1]
+				}				
+
+				if ((rowIndex === 2) && (columnIndex === 3)) {
+						return [0, 0]
 				}				
 			},
 
